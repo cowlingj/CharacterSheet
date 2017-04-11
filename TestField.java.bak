@@ -1,0 +1,9 @@
+public class TestField
+{
+  public static void main(String[] args) {
+    System.out.println(new Label("my label").getImage());
+    System.out.println(new Label("my label2").getImage());
+    System.out.println(new Attribute("my attribute").getImage());
+    System.out.println(new Description("my description").getImage());
+  }
+}
