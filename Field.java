@@ -3,7 +3,6 @@ public abstract class Field
 
   private String name;
   private String value = null;
-  private Boolean highlighted = false;
   private FieldImage image;
   private String type;
 
@@ -25,16 +24,6 @@ public abstract class Field
   public void setValue(String requiredValue)
   {
     value = requiredValue;
-  }
-
-  public Boolean getHighlighted()
-  {
-    return highlighted;
-  }
-
-  public void setHighlighted(Boolean requiredHighlighted)
-  {
-    highlighted = requiredHighlighted;
   }
 
   public FieldImage getImage()
@@ -64,8 +53,8 @@ class Label extends Field
   public Label(String requiredName)
   {
     setName(requiredName);
-    setImage();
     setType("Label");
+    setImage();
   }
 
 }
@@ -75,8 +64,8 @@ class Attribute extends Field
   public Attribute(String requiredName)
   {
     setName(requiredName);
-    setImage();
     setType("Attribute");
+    setImage();
   }
 }
 
@@ -86,8 +75,8 @@ class Description extends Field
   public Description(String requiredName)
   {
     setName(requiredName);
-    setImage();
     setType("Description");
+    setImage();
   }
 
 }
