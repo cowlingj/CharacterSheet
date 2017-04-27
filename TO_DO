@@ -1,0 +1,14 @@
+1) Remove Fields
+   The remove field method should take the name of a field and remove a field
+   with that name.
+   
+   foreach field in field list
+    if field name == givenName
+      remove field
+
+2) Update Field (model)
+   When the text in a field's JTextField is changed then the model should
+   be updated.
+   
+3) Add field error
+   If a field is given a name that matches another in the field list... break.
