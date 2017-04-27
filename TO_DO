@@ -9,6 +9,7 @@
 2) Update Field (model)
    When the text in a field's JTextField is changed then the model should
    be updated.
+   will need: http://stackoverflow.com/questions/3953208/value-change-listener-to-jtextfield
    
 3) Add field error
    If a field is given a name that matches another in the field list... break.
